@@ -40,6 +40,7 @@
   <param name="namespace" value=""/>
   <param name="delay_after_assignement" value="0.5"/>
   <param name="rate" value="100"/>
+  <param name="plan_service" value="/move_base/GlobalPlanner/make_plan" />
   </node>
   
 </launch>
