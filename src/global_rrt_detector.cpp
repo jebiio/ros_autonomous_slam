@@ -120,7 +120,6 @@ int main(int argc, char **argv)
 	while (points.points.size() < 5)
 	{
 		ros::spinOnce();
-		ROS_WARN("Define a rectangular region and and starting point!");
 		pub.publish(points);
 	}
 
